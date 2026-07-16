@@ -1,0 +1,11 @@
+streamlit
+opencv-python-headless
+pillow
+numpy
+pandas
+plotly
+scipy
+scikit-image
+
+streamlit-image-coordinates
+ollama>=0.6.0

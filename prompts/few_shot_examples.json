@@ -1,0 +1,17 @@
+[
+  {
+    "user": "Qual é a principal banda deste espectro?",
+    "good_answer": "Consulte os picos detectados. Informe a posição e a intensidade retornadas pela ferramenta, deixando claro que 'principal' foi definido pela maior proeminência. Não atribua a banda a um grupo funcional sem dados adicionais.",
+    "bad_answer": "A banda em 1720 cm⁻¹ é certamente uma carbonila, mesmo sem a ferramenta ter retornado esse valor ou sem contexto químico."
+  },
+  {
+    "user": "As duas curvas são iguais?",
+    "good_answer": "Use a ferramenta de comparação. Relate correlação, erro e diferença de área. Explique que correlação alta não implica igualdade absoluta.",
+    "bad_answer": "As curvas parecem iguais porque têm formato visual semelhante, sem consultar métricas."
+  },
+  {
+    "user": "Compare a curva azul com a segunda curva.",
+    "bad_answer": "A azul é maior e a segunda é menor.",
+    "good_answer": "Primeiro use list_detected_curves ou get_curve_by_color para resolver as duas referências sem trocar as identidades. Depois use compare_curves com os nomes exatos e relate somente as métricas retornadas."
+  }
+]

@@ -1,0 +1,172 @@
+{
+  "image": "Fig3-a.jpg",
+  "image_size_px": [
+    2048,
+    1609
+  ],
+  "crop_global_px": {
+    "x0": 270,
+    "x1": 1985,
+    "y0": 32,
+    "y1": 1388
+  },
+  "selected_colors": [
+    {
+      "name": "Y6",
+      "color_label": "azul",
+      "rgb": [
+        31,
+        119,
+        180
+      ]
+    },
+    {
+      "name": "Y6-2Se",
+      "color_label": "azul clara",
+      "rgb": [
+        93,
+        172,
+        226
+      ]
+    },
+    {
+      "name": "Y6-2Te",
+      "color_label": "azul escura",
+      "rgb": [
+        23,
+        67,
+        96
+      ]
+    }
+  ],
+  "curves_detected": 3,
+  "masks_non_overlapping": true,
+  "summaries": [
+    {
+      "curve": "Y6",
+      "selected_rgb": [
+        31,
+        119,
+        180
+      ],
+      "selected_hex": "#1F77B4",
+      "detected_rgb": [
+        31,
+        120,
+        180
+      ],
+      "detected_hex": "#1F78B4",
+      "mask_pixels": 41482,
+      "n_points": 1687,
+      "x_min": 366.9790382244143,
+      "x_max": 868.5819975339087,
+      "y_min": 0.04322344322344322,
+      "y_max": 0.9827838827838827,
+      "area": 195.42863917833094
+    },
+    {
+      "curve": "Y6-2Se",
+      "selected_rgb": [
+        93,
+        172,
+        226
+      ],
+      "selected_hex": "#5DACE2",
+      "detected_rgb": [
+        93,
+        172,
+        227
+      ],
+      "detected_hex": "#5DACE3",
+      "mask_pixels": 41270,
+      "n_points": 1663,
+      "x_min": 366.9790382244143,
+      "x_max": 868.8779284833539,
+      "y_min": 0.01868131868131868,
+      "y_max": 0.9827838827838827,
+      "area": 194.8893375428517
+    },
+    {
+      "curve": "Y6-2Te",
+      "selected_rgb": [
+        23,
+        67,
+        96
+      ],
+      "selected_hex": "#174360",
+      "detected_rgb": [
+        22,
+        67,
+        97
+      ],
+      "detected_hex": "#164361",
+      "mask_pixels": 38822,
+      "n_points": 1695,
+      "x_min": 367.2749691738594,
+      "x_max": 868.8779284833539,
+      "y_min": 0.005128205128205128,
+      "y_max": 0.9831501831501831,
+      "area": 203.95994634219048
+    }
+  ],
+  "quality": [
+    {
+      "curve": "Y6",
+      "columns_with_curve": 1687,
+      "coverage_fraction": 0.9831002331002331,
+      "quality": "Alta",
+      "message": "A curva apresenta boa cobertura horizontal e continuidade adequada."
+    },
+    {
+      "curve": "Y6-2Se",
+      "columns_with_curve": 1663,
+      "coverage_fraction": 0.9691142191142191,
+      "quality": "Alta",
+      "message": "A curva apresenta boa cobertura horizontal e continuidade adequada."
+    },
+    {
+      "curve": "Y6-2Te",
+      "columns_with_curve": 1695,
+      "coverage_fraction": 0.9877622377622378,
+      "quality": "Alta",
+      "message": "A curva apresenta boa cobertura horizontal e continuidade adequada."
+    }
+  ],
+  "peaks": [
+    {
+      "curve": "Y6",
+      "peak_id": 1,
+      "wavelength_nm": 471.44266337854503,
+      "normalized_intensity": 0.3435897435897436,
+      "prominence": 0.2
+    },
+    {
+      "curve": "Y6",
+      "peak_id": 2,
+      "wavelength_nm": 687.4722564734896,
+      "normalized_intensity": 0.9827838827838827,
+      "prominence": 0.9179487179487179
+    },
+    {
+      "curve": "Y6-2Se",
+      "peak_id": 1,
+      "wavelength_nm": 483.5758323057953,
+      "normalized_intensity": 0.2824175824175824,
+      "prominence": 0.13992673992673993
+    },
+    {
+      "curve": "Y6-2Se",
+      "peak_id": 2,
+      "wavelength_nm": 701.9728729963008,
+      "normalized_intensity": 0.9827838827838827,
+      "prominence": 0.8743589743589744
+    },
+    {
+      "curve": "Y6-2Te",
+      "peak_id": 1,
+      "wavelength_nm": 730.0863131935882,
+      "normalized_intensity": 0.9831501831501831,
+      "prominence": 0.7402930402930402
+    }
+  ]
+}
